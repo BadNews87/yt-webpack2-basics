@@ -1,0 +1,28 @@
+{
+  "name": "yt-webpack2-basics",
+  "version": "1.0.0",
+  "description": "Application to learn webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "production": "webpack src/js/app.js dist/bundle.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschwarzmueller/yt-webpack2-basics.git"
+  },
+  "keywords": [
+    "Webpack"
+  ],
+  "author": "Krzysztof Bednarczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mschwarzmueller/yt-webpack2-basics/issues"
+  },
+  "homepage": "https://github.com/mschwarzmueller/yt-webpack2-basics#readme",
+  "devDependencies": {
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
